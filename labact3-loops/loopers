@@ -6,18 +6,17 @@ for i in range(1, rows + 1):
     
 print ('===============')
 
-num_input = int(input("Enter the number of rows: "))
+num_input = int(input("Enter a number: "))
 sum = 0
 
 for i in range(1, num_input + 1):
-    sum = sum + i
+    sum += i
     print(sum)
     
-
 print ('===============')
 
 rows = 5
 for i in range(rows, 1, -1):
     for j in range(1, i + 1):
         print(j, end=' ')
-    print("\r")
+    print(" ")
