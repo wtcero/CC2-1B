@@ -1,0 +1,28 @@
+total = 0
+for i in range(1, 5):
+    total += i
+print(total)
+    
+b = [20, 10, 5]
+total = 0
+for e in b:
+    total += e
+print(total)
+
+list(range[1,2,3])
+
+input_number = int(input("Input: "))
+sum = 0
+formula_list = []
+
+# Functions
+# Formula
+while len(formula_list) < input_number:
+    for i in range(1, input_number+1):
+        formula_list.append(i) # add the numbers to the list
+print("Formula:", "+".join(map(str, formula_list))) # make the formula list into a string and join them with a plus sign
+
+# Summation
+for i in range(1, input_number+1): # loop the numbers from 1 to the input number
+    sum += i # add the numbers to the sum
+print("Summation:", sum)
